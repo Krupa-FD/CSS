@@ -1,0 +1,28 @@
+body{
+    background-color: lightcyan;
+}
+h1{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: brown;
+    background-color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+h2{
+    color: teal;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    border: 2px solid black;
+    margin: 10px 500px;
+    width: 500px;
+    height: 400px;
+}
+a{
+    margin-left: 500px;
+}
