@@ -1,18 +1,19 @@
-body{
+ body{
     background-color: lightcyan;
 }
 h1{
     color: orange;
     text-align: center;
     text-decoration: underline;
-}
+} 
 p{
     color: brown;
-    background-color: greenyellow;
+    background-color: yellowgreen;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+    /* text-align: right; */
 }
-h2{
+ h2{
     color: teal;
     text-align: center;
     text-decoration: underline;

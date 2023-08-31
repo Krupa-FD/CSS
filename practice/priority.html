@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS priority</title>
+
+    <!-- external link here and it has the third priority -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    /* internal css here and it has the second priority */
+        p{
+            color: aqua;
+            text-align: left;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline css here and it has the first priority -->
+    <p style="text-align: center;color: green;">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+</body>
+</html>
