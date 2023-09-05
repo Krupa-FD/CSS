@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-clip</title>
+    <style>
+        .background-clip{
+            border: 5px dashed black;
+            background-repeat: no-repeat;
+            background-image: url("../../images/background.jpg");
+            color: brown;
+            background-clip: border-box;
+            /* background-clip: padding-box; */
+            /* background-clip: content-box; */
+            padding: 100px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-clip">
+        <h1>Background-clip</h1>
+        <p>This property defines how far the background (color or image) should extend within an element.</p>
+        <p>CSS background-clip property defines the background area for an element to clip the background image, color, or gradient. For example, Here, the background-clip property only applies the background to the content-box. The content box only includes the content area and not the padding or border of the element.</p>
+    </div>
+</body>
+</html>
