@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Class Selector</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: teal;
+            color: khaki;
+            border: 1px solid teal;
+
+        }
+        button:hover{
+            padding: 10px 30px;
+            background-color: crimson;
+            color: aliceblue;
+            border: 1px solid skyblue;
+            border-radius: 20px;
+
+        }
+        a{
+            color: teal;
+        }
+        a:active{
+            color: orangered;
+        }
+        a:visited{
+            color: rgb(165, 42, 136);
+        }
+    </style>
+</head>
+<body>
+    <h1>Psuedo Class Selector(:)</h1>
+    <p>The pseudo class is used to define special state of an element.for example,it can be used to : style an element when user mouses over it.Style visited and unvisited link differently. </p>
+    <button>Hover Me</button>
+    <br><br>
+    <a href="#">Click Me</a>
+    <a href="https://">Click Me Hello</a>
+
+</body>
+</html>

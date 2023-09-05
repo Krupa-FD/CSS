@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo Element Selector</title>
+    <style>
+      h1::before{
+          content: "Before ";
+          background-color: crimson;
+          color: aliceblue;
+      }
+      h1::after{
+          content: " After";
+          background-color: teal;
+          color: khaki;
+      }
+      p::first-letter{
+        background-color: purple;
+        color: aliceblue;
+        font-size: 80px;
+      }
+      p::first-line{
+        background-color: crimson;
+        color: aliceblue;
+        font-size: 30px;
+      }
+      p::selection{
+        background-color: khaki;
+        color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psuedo Element Selector(::)</h1>
+    <p>It is a keyword added to a selector that lets you style a specific part of the selected elements.<br>
+        It is represented by (::) sign.</p>
+  </body>
+</html>
