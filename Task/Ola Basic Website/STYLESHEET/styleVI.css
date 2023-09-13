@@ -84,7 +84,7 @@ nav :nth-child(6) {
     background-color: rgb(219, 211, 211);
     margin-left: 15%;
     font-size: 20px;
-    padding: 16px;
+    padding: 19px;
     border: 5px solid green;
     border-bottom: none;
     border-top-left-radius: 30px;
@@ -130,4 +130,45 @@ h2 {
 .global i {
     margin-left: 122px;
     font-size: 19px;
+}
+
+.olas1{
+    background-color: black;
+    margin-top: 210px;
+}
+
+.olas1 h1{
+    color: white ;
+    font-size: 48px;
+    text-shadow: 1px 2px rgb(144, 229, 136);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+}
+
+.olas1 img{
+    margin-left: 13%;
+}
+
+.olas1 p{
+   
+    color: white;
+    margin-left: 15%;
+    opacity: 0.5;
+}
+
+.olas1 a{
+    color: rgb(40, 226, 40); 
+    font-size: larger; 
+    font-weight: 600; 
+    text-decoration: none;
+}
+
+.olas1 span{
+    margin-left: 5%;
+    margin-top: 90px;
+    margin-bottom: 120px;
+
 }
