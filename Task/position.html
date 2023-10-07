@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            background-color: lightpink;
+            position: relative;
+        }
+        div[class*="box"]{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            position: absolute;
+            background: url(https://i.pinimg.com/736x/6b/db/06/6bdb067dfdf16e354a3042e3cb925d64.jpg)no-repeat center center/cover;
+        }
+        .box1{
+           top: 2px;
+           left: 600px;
+        }
+        .box2{
+           top: 80px;
+           right: 520px;
+        }
+        .box3{
+           top: 270px;
+           right: 310px;
+        }
+        .box4{
+           bottom: 80px;
+           right: 520px; 
+        }
+        .box5{
+           bottom: 2px;
+           left: 600px;
+        }
+        .box6{
+            bottom: 80px;
+            left: 380px; 
+        }
+        .box7{
+           top: 270px;
+           left: 170px;
+        }
+        .box8{
+           top: 80px;
+           left: 380px;
+        }
+        .Box{
+            position: absolute;
+            height: 218px;
+            width: 218px;
+            border: 3px solid black;
+            border-radius: 100px;
+            top: 270px;
+            left: 600px;
+            background: url(https://i.pinimg.com/originals/bf/d3/f5/bfd3f575c367c491e2330c65ee8fd3ee.jpg)no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="Box"></div>
+    </div>
+</body>
+</html>
