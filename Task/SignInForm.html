@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sign-Up form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 30%;
+            background-color: antiquewhite;
+            /* margin: 0 auto; */
+            padding: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form-wrapper p{
+            padding-top: 10px;
+            color: gray;
+        }
+        .form-group{
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .sign-up{
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            color: white;
+            background-color: rgb(161, 158, 158);
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <div class="form-container">
+            <div class="row">
+                <div class="col-50">
+                  <div class="form-wrapper">
+                    <form action="">
+                        <h1>Hello!</h1>
+                        <p>Please signup to continue</p>
+                        <div class="form-group">
+                            <label for="fullname">Full name</label><br>
+                            <input type="text" placeholder="Krupa Panchal">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label><br>
+                            <input type="email" placeholder="krupapanchal2909@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label><br>
+                            <input type="password" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Confirm Password</label><br>
+                            <input type="password" placeholder="confirm password">
+                        </div>
+                        <button class="sign-up">Sign Up</button>
+                        <div class="endetails">
+                            <p>or</p>
+                            <p>Signup with</p>
+                            <div class="socialmedia-icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-square-twitter" style="color: #4d4ae3;"></i>
+                            </div>
+                            <p>I'm already a member! <a href="">Sign In</a></p>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+          </div> 
+        </div>
+    </section>
+</body>
+</html>
