@@ -1,0 +1,313 @@
+@media (max-width: 992px) {
+    .nav-menu a{
+        font-size: 20px;
+        padding: 9px;
+    }
+    .text{
+        /* margin-top: 40px; */
+        padding: 50px;
+    }
+    .title{
+        font-size: 90px;
+    }
+    .paragraph{
+        font-size: 26px;
+        margin: 70px 0;
+    }
+    .sec-text{
+        font-size: 24px;
+    }
+    .card-wrapper{
+        gap: 30px;
+    }
+    .card-title {
+        font-size: 27px;
+    }
+    .card {
+        width: 31%;
+        gap: 47px;
+    }
+    .burger-wrapper{
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .burger-wrapper-text,
+    .burger-wrapper-text-2{
+        text-align: center;
+    }
+    .burger-content,
+    .burger-content-2 {
+        font-size: 26px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .order-now-white {
+        margin: 0 auto;
+    }
+    .burger-wrapper-image,
+    .burger-wrapper-image-2 {
+        text-align: center;
+    }
+    .burger-section-2 {
+        z-index: 2;
+    }
+    .statistics-wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .statistics{
+        width: 400px;
+        height: 400px;
+    }
+    .statistics-section p{
+        font-size: 23px;
+    }
+    .package-wrapper{
+        gap: 50px;
+    }
+    .package-item{
+        width: 250px;
+    }
+    .package-order-now{
+        width: 200px;
+        height: 45px;
+        font-size: 19px;
+    }
+    .barry-henderson-wrapper p{
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .email-section-wrapper h1 {
+        font-size: 58px;
+    }
+    .email-section-wrapper p {
+        font-size: 20px;
+    }
+    .subscribe {
+        right: -13%;
+        top: 30px;
+    }
+    .links-container{
+        gap: 20px;
+    }   
+}
+
+@media (max-width :768px) {
+    .col-50,
+    .col-30{
+        width: 100%;
+    }
+    .nav-menu a{
+        font-size: 18px;
+        padding: 8px;
+    }
+    .text{
+        margin-top: 40px;
+        padding: 60px;
+        text-align: center;
+    }
+    .title{
+        font-size: 70px;
+    }
+    .paragraph{
+        font-size: 26px;
+        margin: 70px 0;
+    }
+    .sec-text{
+        font-size: 24px;
+    }
+    .card-wrapper{
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .card {
+        width: 41%;
+        /* gap: 47px; */
+    }
+    .burger-wrapper{
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .burger-wrapper-text,
+    .burger-wrapper-text-2{
+        text-align: center;
+    }
+    .burger-title,
+    .burger-title-2{
+        font-size: 70px;
+    }
+    .burger-content,
+    .burger-content-2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .order-now-white {
+        margin: 0 auto;
+    }
+    .burger-wrapper-image,
+    .burger-wrapper-image-2 {
+        text-align: center;
+    }
+    .burger-section-2 {
+        z-index: 2;
+    }
+    .statistics-wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .statistics{
+        width: 400px;
+        height: 400px;
+    }
+    .statistics-section p{
+        font-size: 23px;
+    }
+    .package-wrapper{
+        gap: 50px;
+        flex-direction: column;
+        /* text-align: center; */
+        padding-left: 25%;
+    }
+    .package-item{
+        width: 400px;
+        text-align: center;
+    }
+    .barry-henderson-wrapper p{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .email-section-wrapper h1 {
+        font-size: 55px;
+    }
+    .email-section-wrapper p {
+        font-size: 20px;
+    }
+    .subscribe {
+        right: -25%;
+        top: 30px;
+    }
+    .links-container{
+        gap: 20px;
+    }   
+}
+
+@media (max-width :576px) {
+    .col-50,
+    .col-30{
+        width: 100%;
+    }
+    .nav-menu a{
+        font-size: 14px;
+        padding: 7px;
+    }
+    .text{
+        margin-top: 30px;
+        padding: 55px;
+        text-align: center;
+    }
+    .title{
+        font-size: 70px;
+    }
+    .paragraph{
+        font-size: 25px;
+        margin: 70px 0;
+    }
+    .sec-text{
+        font-size: 23px;
+    }
+    .card-wrapper{
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .card {
+        width: 59%;
+        /* gap: 47px; */
+    }
+    .burger-wrapper{
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .burger-wrapper-image,
+    .burger-wrapper-image-2{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    .burger-wrapper-text,
+    .burger-wrapper-text-2{
+        text-align: center;
+    }
+    .burger-title,
+    .burger-title-2{
+        font-size: 70px;
+    }
+    .burger-content,
+    .burger-content-2 {
+        font-size: 28px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .order-now-1,
+    .order-now-2 {
+        /* height: 80px; */
+        padding: 20px;
+    }
+    .burger-section-2 {
+        z-index: 2;
+    }
+    .statistics-wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .statistics{
+        width: 350px;
+        height: 350px;
+    }
+    .statistics-section p{
+        font-size: 23px;
+    }
+    .package-wrapper{
+        gap: 50px;
+        flex-direction: column;
+        /* text-align: center; */
+        padding-left: 20%;
+    }
+    .package-item{
+        width: 350px;
+        text-align: center;
+    }
+    .barry-henderson-wrapper p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .email-section-wrapper h1 {
+        font-size: 45px;
+    }
+    .email-section-wrapper p {
+        font-size: 20px;
+    }
+    input{
+        margin-left: -130px;
+        text-align: left;
+        /* width: 90px; */
+    }
+    .subscribe {
+        right: -25%;
+        top: 30px;
+        margin-right: -46px;
+        /* width: 20px; */
+    }
+    .links-container{
+        gap: 20px;
+    }   
+}
