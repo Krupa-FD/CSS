@@ -48,6 +48,7 @@
     .burger-wrapper-image,
     .burger-wrapper-image-2 {
         text-align: center;
+        margin-left: -80px;
     }
     .burger-section-2 {
         z-index: 2;
@@ -85,7 +86,7 @@
         font-size: 20px;
     }
     .subscribe {
-        right: -13%;
+        right: 0%;
         top: 30px;
     }
     .links-container{
@@ -153,6 +154,7 @@
     .burger-wrapper-image,
     .burger-wrapper-image-2 {
         text-align: center;
+        margin-left: -46px;
     }
     .burger-section-2 {
         z-index: 2;
@@ -181,6 +183,7 @@
     .barry-henderson-wrapper p{
         font-size: 28px;
         line-height: 40px;
+        /* margin: 30px; */
     }
     .email-section-wrapper h1 {
         font-size: 55px;
@@ -188,8 +191,11 @@
     .email-section-wrapper p {
         font-size: 20px;
     }
+    input{
+        margin-left: -100px;
+    }
     .subscribe {
-        right: -25%;
+        right: -28%;
         top: 30px;
     }
     .links-container{
@@ -202,9 +208,15 @@
     .col-30{
         width: 100%;
     }
+    .logo img{
+        margin-left: -86px;
+    }
+    .nav-menu{
+        margin-left: 70px;
+    }
     .nav-menu a{
         font-size: 14px;
-        padding: 7px;
+        padding: 0px;
     }
     .text{
         margin-top: 30px;
@@ -242,6 +254,7 @@
         width: 300px;
         height: 300px;
         text-align: center;
+        margin-left: -60px;
     }
     .burger-wrapper-text,
     .burger-wrapper-text-2{
@@ -254,8 +267,8 @@
     .burger-content,
     .burger-content-2 {
         font-size: 28px;
-        margin-bottom: 50px;
         text-align: center;
+        margin: 0 -50px 50px;
     }
     .order-now-1,
     .order-now-2 {
@@ -282,6 +295,10 @@
         /* text-align: center; */
         padding-left: 20%;
     }
+    .package-section h1{
+        font-size: 65px;
+        font-weight: 600;
+    }
     .package-item{
         width: 350px;
         text-align: center;
@@ -289,12 +306,18 @@
     .barry-henderson-wrapper p{
         font-size: 25px;
         line-height: 40px;
+        margin: 0 -60px 0;
+    }
+    .barry-henderson-wrapper h3{
+        margin-top: 40px;
     }
     .email-section-wrapper h1 {
-        font-size: 45px;
+        font-size: 52px;
+        margin: 0 -59px 0;
     }
     .email-section-wrapper p {
         font-size: 20px;
+        margin: 0 -36px 0;
     }
     input{
         margin-left: -130px;
